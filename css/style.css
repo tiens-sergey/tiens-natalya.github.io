@@ -252,7 +252,7 @@ header small {
 /* Секция портфолио */
 .portfolio {
 	background-color: #dddddd;
-	background-image: url(../img/bg-pattern7.jpg);
+	/*background-image: url(../img/bg-pattern7.jpg);*/
 	padding-top: 44px;
 	padding-bottom: 20px;
 }
