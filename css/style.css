@@ -27,9 +27,9 @@ header {
 	color: #ffffff;
 }
 
-@media (min-width: 576px) {
+@media (max-width: 576px) {
 header{
-background-color: transparent;	
+background-color: #3a7dfd;	
 }
 }
 
