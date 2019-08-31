@@ -27,6 +27,12 @@ header {
 	color: #ffffff;
 }
 
+@media (min-width: 576px) {
+header{
+background-color: transparent;	
+}
+}
+
 @media (max-width: 576px) {
 p.haunted{
 margin: 15px 0 15px;	
