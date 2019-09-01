@@ -7,7 +7,7 @@ a {
   text-decoration: none;
   position: relative;
 }
-/*
+
 .center a::before {
   content: '';
   bottom: 0;
@@ -25,7 +25,7 @@ a {
 
 .container1{
 padding-bottom: 20px; 
-}*/
+}
 
 .left a.top::before {
   top: 0;
