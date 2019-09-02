@@ -2,7 +2,7 @@
 height: 100vh;	
 }
 
-@media only screen and (max-device-width: 576px){
+@media only screen and (max-device-width: 1366px){
 .parallax-window{
 background-attachment: scroll;
 }
