@@ -23,7 +23,6 @@ img {
 header {
 	padding-top: 59px ;
 	padding-bottom: 22px;
-	/*background-color: #3a7dfd;*/
 	color: #ffffff;
 }
 
@@ -32,6 +31,7 @@ header{
 background-image: url(../img/bg-image3.jpg);	
 }
 }
+
 
 @media (max-width: 576px) {
 p.haunted{
@@ -258,6 +258,13 @@ header small {
 }
 
 
+.portfolio-footer {
+background-color: #fff;
+	padding: 15px 10px 20px;
+	box-shadow: 0 6px 10px 2px rgba(0,0,0,0.3);
+	margin-top: 20px;
+
+}
 
 .portfolio-block1 {
 	background-color: #fff;
@@ -269,10 +276,11 @@ header small {
 
 .portfolio-block {
 	background-color: #fff;
-	padding: 29px 29px;
-	padding-bottom: 44px;
+	padding: 29px 29px 44px;
 	box-shadow: 0 6px 10px 2px rgba(0,0,0,0.3);
 }
+
+
 .portfolio-title {
 	text-transform: uppercase;
 	font-size: 30px;
