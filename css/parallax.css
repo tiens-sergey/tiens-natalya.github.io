@@ -2,6 +2,20 @@
 height: 100vh;	
 }
 
+.section{
+min-height: 100vh;
+text-align: center;
+width: 100%;
+display: table;
+/*background: url(../video/ocean.jpg) no-repeat center;*/
+}
+
+.wrap-block {
+display: table-cell;
+vertical-align: middle;	
+}
+
+
 @media only screen and (max-device-width: 1366px){
 .parallax-window{
 background-attachment: scroll;
