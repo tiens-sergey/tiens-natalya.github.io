@@ -21,7 +21,7 @@ img {
 }
 
 header {
-	padding-top: 59px ;
+	adding-top: 59px ;
 	padding-bottom: 22px;
 	color: #ffffff;
 }
@@ -158,6 +158,14 @@ font-size: 25px;
 color: #008040;	
 font-weight: bold; 
 margin-top: 25px;
+}
+
+p.share{
+font-size: 20px;
+color: #282923;	
+font-weight: bold; 
+margin-top: 25px;	
+text-align: center;
 }
 
 h2{
