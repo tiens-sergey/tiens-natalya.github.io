@@ -16,7 +16,7 @@ vertical-align: middle;
 }
 
 
-@media only screen and (max-device-width: 768px){
+@media only screen and (max-device-width: 1366px){
 .parallax-window{
 background-attachment: scroll;
 }
