@@ -22,7 +22,6 @@
 		<link rel="stylesheet" href="css/parallax.css">
 		<link rel="stylesheet" href="css/animate.css">
 		<link rel="stylesheet" href="css/style.css">
-		<link rel="stylesheet" href="css/input.css">
 		<link rel="stylesheet" href="css/links.css">
 
 
@@ -110,12 +109,11 @@
 			<li>Поддержание уровня pH7,35 - слабощелочной среды организма (слушайте аудио ниже)</li>
 			<li>Устранение побочного действия спортивной фармакологии, лекарств, химиотерапии</li>
 			<li>Предотвращение развития заболеваний на стадии возникновения</li>
-			<li class="left-block box">Активизируют Т-лимфоциты<input type="checkbox" id="tip-checkbox" class="tip-checkbox">
-<label for="tip-checkbox" class="support"><em>?</em></label>
-<span class="tip-block">
- <span class="tip-three">Т- лимфоциты клетки киллеры. Вступая в контакт с «поражёнными» клетками, они их уничтожают. Активность Т-лимфоцитов направлена именно против поражённых клеток собственного организма, а не против того, что их поразило. Все структуры тела, не подлежащие восстановлению, уничтожаются, и этим занимаются Т-лимфоциты.
-  <label for="tip-checkbox" class="tip-close">X</label>
- </span></span>для борьбы с поражёнными клетками</li>
+			<li class="left-block box">Активизируют Т-лимфоциты<span id="infoIcon" class="glyphicon glyphicon-question-sign" 
+data-toggle="tooltip"></span><span id="txtName"  title="Т- лимфоциты клетки киллеры. Вступая в контакт с «поражёнными» клетками, 
+они их уничтожают. Активность Т-лимфоцитов направлена именно против поражённых клеток собственного организма, 
+а не против того, что их поразило. Все структуры тела, не подлежащие восстановлению, уничтожаются, 
+и этим занимаются Т-лимфоциты." data-placement="top"></span>для борьбы с поражёнными клетками</li>
 			<li>Устранение дефицита биологической ценности питания</li>
 			<!--<li class="block">Активизируют <acronym title="Т- лимфоциты клетки киллеры. Вступая в контакт с «поражёнными» клетками, они их уничтожают. Активность Т-лимфоцитов направлена именно против поражённых клеток собственного организма, а не против того, что их поразило. Все структуры тела, не подлежащие восстановлению, уничтожаются, и этим занимаются Т-лимфоциты.">Т-лимфоциты</acronym> для борьбы с поражёнными клетками</li>
 			<li>Устранение дефицита биологической ценности питания</li>-->
@@ -336,18 +334,33 @@ VK.Widgets.Comments("vk_comments", {limit: 10, attach: false});
 	</div>
 <!--/.container -->
 </footer>
-<script src="js/popper.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="js/bootstrap.js"></script>
+<script src="js/popper.min.js"></script>
 <script src="js/wow.min.js"></script>
 <script src="js/main.js"></script>
 <script>
 	new WOW().init();
 </script>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
 	
 <script src="js/parallax.min.js"></script>
 	<script src="js/jquery.vide.min.js"></script>
+	
+	<script type="text/javascript">
+	$(document).ready (function (){
+		$('[data-toggle="tooltip"]').tooltip ();
+	});
+
+$(document).ready(function () {
+$('txtName').tooltip({
+    trigger :'manual'
+});
+$('#infoIcon').click(function () {
+$('#txtName').tooltip('toggle');
+});
+});
 </body>
 
 </html>
